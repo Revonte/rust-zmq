@@ -96,8 +96,8 @@ log = "0.4.3"
 zmq-sys = { version = "0.8.2", path = "zmq-sys" }
 compiletest_rs = { version = "0.3", optional = true }
 
-[build-dependencies]
-zmq-sys = { version = "0.8.2", path = "zmq-sys" }
+#[build-dependencies]
+#zmq-sys = { version = "0.8.2", path = "zmq-sys" }
 
 [dev-dependencies]
 env_logger = "0.5"
