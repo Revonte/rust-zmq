@@ -161,8 +161,8 @@ zmq-sys = { version = "0.9.0", path = "zmq-sys" }
 compiletest_rs = { version = "0.3", optional = true }
 bitflags = "0.7"
 
-[build-dependencies]
-zmq-sys = { version = "0.9.0", path = "zmq-sys" }
+#[build-dependencies]
+#zmq-sys = { version = "0.9.0", path = "zmq-sys" }
 
 [dev-dependencies]
 env_logger = "0.5"
